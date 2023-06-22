@@ -1,0 +1,378 @@
+*{padding: 0; margin: 0; box-sizing: border-box; list-style: none;}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.font1{
+    font-family: ram;
+}
+.font2{
+    font-family: bs;
+}
+.font3{
+    font-family: rv;
+}
+
+
+/* @font-face {
+    font-family: ram;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: bs;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: bd;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: rv;
+    src: url(../fonts/Poppins-Medium.ttf);} */
+
+
+ @font-face {
+    font-family: ram;
+    src: url(../fonts/CollegiateInsideFLF.ttf);
+}
+@font-face {
+    font-family: bs;
+    src: url(../fonts/CollegiateFLF.ttf);
+}
+@font-face {
+    font-family: bd;
+    src: url(../fonts/CollegiateBlackFLF.ttf);
+}
+@font-face {
+    font-family: rv;
+    src: url(../fonts/Royal\ Avenue\ Demo.otf);
+} 
+
+/* ======================================================================================= */
+@media(max-width:425px){
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        display: block;  
+    }
+    .navbar-toggler{
+        margin-left: 70px;
+    }
+}
+/* ====================================================================================== */
+
+.navbar{
+    padding: 00;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.navbar-collapse {
+    margin-top: 10px;
+}
+.nav-item{
+  margin: 4px 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color:#a8a4a4;
+    padding: 5px 15px;
+    text-transform: capitalize;
+    border-radius: 10px;
+   
+}
+.navbar-nav .nav-link.active{
+    color: #742933;
+    background-color: #eee;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    background-color: #ddd;
+    color: #742933;
+    border-radius: 10px;
+}
+/* ===========================[hero-section] ==================================== */
+ul,ol{
+    padding: 00;
+}
+#service{
+    /* background-color: rgb(245, 231, 239); */
+    background-color: rgb(245, 240, 231);
+    padding: 10% 30px;
+}
+.text-aria{
+    padding-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+
+.text-aria h1{
+   font-weight: bolder;
+}
+.text-aria p{
+    color:#3300ca;
+    font-size:24px;
+    margin:15px 0;
+    font-weight: bolder;
+}
+
+.text-aria ul li{
+    
+    line-height: 2;
+}
+.text-aria ul li i{
+    color: #3300ca;
+}
+/* ==================================================== */
+
+.gst-form{
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow:  0 0.5rem 1rem rgb(12 12 12 / 10%);
+}
+
+.gst-form h4{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.gst-form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px #ccc;
+    margin-bottom: 15px;
+}
+.gst-form input:focus{
+    border: solid 1px #ff3366;
+    outline: none; 
+}
+.city select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px #ccc;
+    margin-bottom: 15px;   
+    text-transform: capitalize;
+}
+.city select option{
+    text-transform: capitalize;
+}
+.btn a{
+    display: block;
+    background-color: #3300ca;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+ 
+}
+
+.btn {
+    width: 100%;
+}
+
+/* ==========================[BRAND-SECTION]=================================== */
+
+.ft-head{
+    text-align: center;
+    margin: 50px 0;
+   
+ }
+ .ft-head h1{
+     font-family: rv;
+     transition: 0.5s;
+ }
+ .ft-head h1:hover{
+     -webkit-text-stroke: 2px #000;
+     color: transparent;
+ }
+ .ft-head h1 span{
+     color: rgb(203, 53, 53);
+ }
+ 
+ .ft-head p{
+     
+     font-weight: 400;
+     color: #5a5656;
+ }
+
+.brand-box{
+   margin-top: 3rem;
+   margin-bottom: 4rem;
+}
+
+ .service-box {
+    box-shadow:  0 0.5rem 1rem rgb(12 12 12 / 10%);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    min-height: 165px;
+ }
+
+.service-box ul li i{
+    font-size: 45px;
+    margin-right: 12px;
+    color: #3300ca;
+}
+.vd h3{
+    color: #3300ca;
+    font-weight: bolder; 
+}
+.gst-info h5{
+    font-weight: bolder;
+}
+.gst-advant ul li i{
+    color: #3300ca;
+    font-size: 18px;
+}
+
+/* ======================================================================================================== */
+
+.pack-box{
+    box-shadow:  0 0.5rem 1rem rgb(12 12 12 / 30%);
+    margin: 30px 0;
+   
+}
+.pack-left{
+   
+    height: 140px;
+}
+.pack-left-box i{
+    color: #3300ca;
+    font-size: 40px;
+    
+}
+/* ======================================================================================================= */
+
+.accordion-item{
+    margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+ /* ====================================[FOOTER-section]======================================== */
+ #footer{
+    background: #060e1f;
+    padding:50px 10px;
+   
+ }
+ #footer a:hover{
+    color: #fff;
+    transition: 0.5s;
+ }
+
+.footer-box h6{
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(23, 54, 88, 0.4);
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.footer-box ul li a{
+    font-size: 12px;
+    line-height: 24px;
+    color: #cecece;
+    margin: 0 0 10px 0;
+    display: block;
+}
+.footer-box ul li a span i{
+    color: #fff;
+}
+
+.colum1 span i{
+    font-size: 18px;
+    color: #fff;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 25px;
+    text-align: center;
+}
+.colum1 a{
+    text-decoration: none;
+    color: #cecece;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+.colum2{
+    margin-top: 10px;
+    padding: 10px 0;
+}
+.colum2 span i{
+    font-size: 18px;
+    color: #fff;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 25px;
+    text-align: center;
+}
+.colum2 a{
+    text-decoration: none;
+    color: #cecece;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.peraa span i{
+    font-size: 18px;
+    color: #fff;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 25px;
+    text-align: center;
+}
+.peraa a{
+    text-decoration: none;
+    color: #cecece;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.footer-box p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #cecece;
+}
+.footer-socia{
+    margin-top: 15px;
+}
+.footer-socia ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.footer-socia ul li a{
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.06);
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 50%;
+    text-align: center;
+}
+.footer-socia ul li a:hover{
+    color: #ccc;
+    border: 1px solid #ccc;
+   transition: 0.8s;
+}
+.footer-socia ul li a span i{
+    font-size: 15px;
+    line-height: 35px;
+}

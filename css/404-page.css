@@ -1,0 +1,219 @@
+*{padding: 0; margin: 0; box-sizing: border-box; list-style: none;}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.font1{
+    font-family: ram;
+}
+.font2{
+    font-family: bs;
+}
+.font3{
+    font-family: rv;
+}
+
+@font-face {
+    font-family: ram;
+    src: url(../fonts/CollegiateInsideFLF.ttf);
+}
+@font-face {
+    font-family: bs;
+    src: url(../fonts/CollegiateFLF.ttf);
+}
+@font-face {
+    font-family: bd;
+    src: url(../fonts/CollegiateBlackFLF.ttf);
+}
+@font-face {
+    font-family: rv;
+    src: url(../fonts/Royal\ Avenue\ Demo.otf);
+}
+/* ======================================[HERO-SECTION]========================================= */
+.hero_area{
+    background-image: url(../images/about-hero.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+background-size: cover;
+}
+
+.bg-overlay-black-4{
+    position: relative;
+}
+.bg-overlay-black-4::before{
+    
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+background: rgba(13, 89, 102, 0.6);
+content: "";
+border-radius: 5px;
+}
+
+.hero-text h1{
+    font-size: 140px;
+    color: #fff;
+    line-height: 1;
+   
+}
+.hero-text{
+    padding: 15% 0;
+    width: 340px;
+}
+.hero-text .page-pera{
+    font-size:22px;
+    color: #fff;
+    margin:2rem 0;
+}
+.pg-input input{
+    padding: 10px 58px 10px 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    background: #fff;
+  
+}
+.btn-icon{
+    border: none;
+    color:rgb(255, 13, 0);
+    line-height: 1;
+    background: none;
+    position: absolute;
+    right: 24%;
+    padding: 18px 18px;
+    font-size: 16px;
+}
+.back-home{
+    padding: 2rem 0;
+}
+
+.back-home a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.back-home a:hover{
+    color: brown;
+    transition: 0.5s;
+}
+
+ /* ====================================[FOOTER-section]======================================== */
+ #footer{
+    background: #060e1f;
+    padding:50px 10px;
+   
+ }
+ #footer a:hover{
+    color: #fff;
+    transition: 0.5s;
+ }
+
+.footer-box h6{
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(23, 54, 88, 0.4);
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.footer-box ul li a{
+    font-size: 12px;
+    line-height: 24px;
+    color: #cecece;
+    margin: 0 0 10px 0;
+    display: block;
+}
+.footer-box ul li a span i{
+    color: #fff;
+}
+
+.colum1 span i{
+    font-size: 18px;
+    color: #fff;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 25px;
+    text-align: center;
+}
+.colum1 a{
+    text-decoration: none;
+    color: #cecece;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+.colum2{
+    margin-top: 10px;
+    padding: 10px 0;
+}
+.colum2 span i{
+    font-size: 18px;
+    color: #fff;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 25px;
+    text-align: center;
+}
+.colum2 a{
+    text-decoration: none;
+    color: #cecece;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.peraa span i{
+    font-size: 18px;
+    color: #fff;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 25px;
+    text-align: center;
+}
+.peraa a{
+    text-decoration: none;
+    color: #cecece;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.footer-box p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #cecece;
+}
+.footer-socia{
+    margin-top: 15px;
+}
+.footer-socia ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.footer-socia ul li a{
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.06);
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 50%;
+    text-align: center;
+}
+.footer-socia ul li a:hover{
+    color: #ccc;
+    border: 1px solid #ccc;
+   transition: 0.8s;
+}
+.footer-socia ul li a span i{
+    font-size: 15px;
+    line-height: 35px;
+}
